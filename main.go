@@ -49,8 +49,12 @@ func getUser(c echo.Context) error {
 			}
 		}
 	}
-	u := &filtered
 
+	if words == "" {
+		u := &data
+		return c.JSON(http.StatusCreated, u)
+	}
+	u := &filtered
 	return c.JSON(http.StatusCreated, u)
 }
 

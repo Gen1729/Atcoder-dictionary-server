@@ -1,17 +1,17 @@
 [
     {
-        "name":"A - Subsegment Reverse",
+        "name":"ABC356 A - Subsegment Reverse",
         "url":"https://atcoder.jp/contests/abc356/editorial/10124",
-        "tags":["A","for"]
+        "tags":["ABC","356","A","for"]
     },
     {
-        "name":"B - Nutrients",
+        "name":"ABC356 B - Nutrients",
         "url":"https://atcoder.jp/contests/abc356/editorial/10115",
-        "tags":["B","map"]
+        "tags":["ABC","356","B","map"]
     },
     {
-        "name":"C - Keys",
+        "name":"ABC356 C - Keys",
         "url":"https://atcoder.jp/contests/abc356/editorial/10125",
-        "tags":["C","dp"]
+        "tags":["ABC","356","C","dp"]
     }
 ]
