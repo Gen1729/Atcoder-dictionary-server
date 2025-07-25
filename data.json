@@ -1,17 +1,51 @@
 [
     {
         "name":"ABC356 A - Subsegment Reverse",
-        "url":"https://atcoder.jp/contests/abc356/editorial/10124",
-        "tags":["ABC","356","A","for"]
+        "url":"https://atcoder.jp/contests/abc356/tasks/abc356_a",
+        "tags":["ABC","A"],
+        "contest":356,
+        "difficulty":18
     },
     {
         "name":"ABC356 B - Nutrients",
-        "url":"https://atcoder.jp/contests/abc356/editorial/10115",
-        "tags":["ABC","356","B","map"]
+        "url":"https://atcoder.jp/contests/abc356/tasks/abc356_b",
+        "tags":["ABC","B"],
+        "contest":356,
+        "difficulty":40
     },
     {
         "name":"ABC356 C - Keys",
-        "url":"https://atcoder.jp/contests/abc356/editorial/10125",
-        "tags":["ABC","356","C","dp"]
+        "url":"https://atcoder.jp/contests/abc356/tasks/abc356_c",
+        "tags":["ABC","C"],
+        "contest":356,
+        "difficulty":568
+    },
+    {
+        "name":"ABC356 D - Masked Popcount",
+        "url":"https://atcoder.jp/contests/abc356/tasks/abc356_d",
+        "tags":["ABC","D"],
+        "contest":356,
+        "difficulty":886
+    },
+    {
+        "name":"ABC356 E - Max/Min",
+        "url":"https://atcoder.jp/contests/abc356/tasks/abc356_e",
+        "tags":["ABC","E"],
+        "contest":356,
+        "difficulty":1506
+    },
+    {
+        "name":"ABC356 F - Distance Component Size Query",
+        "url":"https://atcoder.jp/contests/abc356/tasks/abc356_f",
+        "tags":["ABC","F"],
+        "contest":356,
+        "difficulty":2152
+    },
+    {
+        "name":"ABC356 G - Freestyle",
+        "url":"https://atcoder.jp/contests/abc356/tasks/abc356_g",
+        "tags":["ABC","G"],
+        "contest":356,
+        "difficulty":3022
     }
 ]

@@ -4,22 +4,55 @@ import (
 	"encoding/json"
 	"net/http"
 	"os"
+	"strconv"
 	"strings"
 
 	"github.com/labstack/echo/v4"
 )
 
 type Link struct {
-	Name string   `json:"name"`
-	Url  string   `json:"url"`
-	Tags []string `json:"tags"`
+	Name       string   `json:"name"`
+	Url        string   `json:"url"`
+	Tags       []string `json:"tags"`
+	Contest    int      `json:"contest"`
+	Difficulty int      `json:"difficulty"`
 }
 
-func getUser(c echo.Context) error {
+func getProblems(c echo.Context) error {
 	words := c.QueryParam("words")
+	var contest string = c.QueryParam("contest")
+	var difficulty string = c.QueryParam("difficulty")
 	wordsArr := []string{}
 	if words != "" {
 		wordsArr = append(wordsArr, strings.Split(words, ",")...)
+	}
+
+	contestArr := []int{}
+	if contest != "" {
+		contestStrArr := strings.Split(contest, ",")
+		for _, c := range contestStrArr {
+			if c == "" {
+				continue
+			}
+			num, err := strconv.Atoi(c)
+			if err != nil {
+				continue
+			}
+			contestArr = append(contestArr, num)
+		}
+	}
+
+	difficultyArr := []int{}
+	difficultyStrArr := strings.Split(difficulty, ",")
+	for _, c := range difficultyStrArr {
+		if c == "" {
+			continue
+		}
+		num, err := strconv.Atoi(c)
+		if err != nil {
+			continue
+		}
+		difficultyArr = append(difficultyArr, num)
 	}
 
 	file, err := os.Open("data.json")
@@ -33,8 +66,25 @@ func getUser(c echo.Context) error {
 	if err := decoder.Decode(&data); err != nil {
 		return err
 	}
-	var filtered []Link
+
+	var filteredByDifficultyContest []Link
 	for _, link := range data {
+		if !(difficultyArr[0] <= link.Difficulty && link.Difficulty <= difficultyArr[1]) {
+			continue
+		}
+		if contest == "" {
+			filteredByDifficultyContest = append(filteredByDifficultyContest, link)
+			continue
+		}
+		for _, num := range contestArr {
+			if link.Contest == num {
+				filteredByDifficultyContest = append(filteredByDifficultyContest, link)
+			}
+		}
+	}
+
+	var filtered []Link
+	for _, link := range filteredByDifficultyContest {
 		D := false
 		for _, tag := range link.Tags {
 			for _, word := range wordsArr {
@@ -51,7 +101,7 @@ func getUser(c echo.Context) error {
 	}
 
 	if words == "" {
-		u := &data
+		u := &filteredByDifficultyContest
 		return c.JSON(http.StatusCreated, u)
 	}
 	u := &filtered
@@ -60,10 +110,7 @@ func getUser(c echo.Context) error {
 
 func main() {
 	e := echo.New()
-	e.GET("/", func(c echo.Context) error {
-		return c.String(http.StatusOK, "Hello, World!")
-	})
-	e.GET("/dict", getUser)
+	e.GET("/dict", getProblems)
 
 	e.Logger.Fatal(e.Start(":1323"))
 }
