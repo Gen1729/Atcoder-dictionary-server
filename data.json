@@ -1,51 +1,1122 @@
 [
     {
-        "name":"ABC356 A - Subsegment Reverse",
-        "url":"https://atcoder.jp/contests/abc356/tasks/abc356_a",
-        "tags":["ABC","A"],
-        "contest":356,
-        "difficulty":18
+        "name": "ABC400 | A - ABC400 Party",
+        "url": "https://atcoder.jp/contests/abc400/tasks/abc400_a",
+        "tags": [
+            "ABC",
+            "A"
+        ],
+        "contest": 400,
+        "difficulty": 0
     },
     {
-        "name":"ABC356 B - Nutrients",
-        "url":"https://atcoder.jp/contests/abc356/tasks/abc356_b",
-        "tags":["ABC","B"],
-        "contest":356,
-        "difficulty":40
+        "name": "ABC400 | B - Sum of Geometric Series",
+        "url": "https://atcoder.jp/contests/abc400/tasks/abc400_b",
+        "tags": [
+            "ABC",
+            "B"
+        ],
+        "contest": 400,
+        "difficulty": 0
     },
     {
-        "name":"ABC356 C - Keys",
-        "url":"https://atcoder.jp/contests/abc356/tasks/abc356_c",
-        "tags":["ABC","C"],
-        "contest":356,
-        "difficulty":568
+        "name": "ABC400 | C - 2^a b^2",
+        "url": "https://atcoder.jp/contests/abc400/tasks/abc400_c",
+        "tags": [
+            "ABC",
+            "C"
+        ],
+        "contest": 400,
+        "difficulty": 702
     },
     {
-        "name":"ABC356 D - Masked Popcount",
-        "url":"https://atcoder.jp/contests/abc356/tasks/abc356_d",
-        "tags":["ABC","D"],
-        "contest":356,
-        "difficulty":886
+        "name": "ABC400 | D - Takahashi the Wall Breaker",
+        "url": "https://atcoder.jp/contests/abc400/tasks/abc400_d",
+        "tags": [
+            "ABC",
+            "D"
+        ],
+        "contest": 400,
+        "difficulty": 1026
     },
     {
-        "name":"ABC356 E - Max/Min",
-        "url":"https://atcoder.jp/contests/abc356/tasks/abc356_e",
-        "tags":["ABC","E"],
-        "contest":356,
-        "difficulty":1506
+        "name": "ABC400 | E - Ringo's Favorite Numbers 3",
+        "url": "https://atcoder.jp/contests/abc400/tasks/abc400_e",
+        "tags": [
+            "ABC",
+            "E"
+        ],
+        "contest": 400,
+        "difficulty": 1226
     },
     {
-        "name":"ABC356 F - Distance Component Size Query",
-        "url":"https://atcoder.jp/contests/abc356/tasks/abc356_f",
-        "tags":["ABC","F"],
-        "contest":356,
-        "difficulty":2152
+        "name": "ABC400 | F - Happy Birthday! 3",
+        "url": "https://atcoder.jp/contests/abc400/tasks/abc400_f",
+        "tags": [
+            "ABC",
+            "F"
+        ],
+        "contest": 400,
+        "difficulty": 2263
     },
     {
-        "name":"ABC356 G - Freestyle",
-        "url":"https://atcoder.jp/contests/abc356/tasks/abc356_g",
-        "tags":["ABC","G"],
-        "contest":356,
-        "difficulty":3022
+        "name": "ABC400 | G - Patisserie ABC 3",
+        "url": "https://atcoder.jp/contests/abc400/tasks/abc400_g",
+        "tags": [
+            "ABC",
+            "G"
+        ],
+        "contest": 400,
+        "difficulty": 2813
+    },
+    {
+        "name": "ABC401 | A - Status Code",
+        "url": "https://atcoder.jp/contests/abc401/tasks/abc401_a",
+        "tags": [
+            "ABC",
+            "A"
+        ],
+        "contest": 401,
+        "difficulty": 0
+    },
+    {
+        "name": "ABC401 | B - Unauthorized",
+        "url": "https://atcoder.jp/contests/abc401/tasks/abc401_b",
+        "tags": [
+            "ABC",
+            "B"
+        ],
+        "contest": 401,
+        "difficulty": 0
+    },
+    {
+        "name": "ABC401 | C - K-bonacci",
+        "url": "https://atcoder.jp/contests/abc401/tasks/abc401_c",
+        "tags": [
+            "ABC",
+            "C"
+        ],
+        "contest": 401,
+        "difficulty": 209
+    },
+    {
+        "name": "ABC401 | D - Logical Filling",
+        "url": "https://atcoder.jp/contests/abc401/tasks/abc401_d",
+        "tags": [
+            "ABC",
+            "D"
+        ],
+        "contest": 401,
+        "difficulty": 1148
+    },
+    {
+        "name": "ABC401 | E - Reachable Set",
+        "url": "https://atcoder.jp/contests/abc401/tasks/abc401_e",
+        "tags": [
+            "ABC",
+            "E"
+        ],
+        "contest": 401,
+        "difficulty": 1270
+    },
+    {
+        "name": "ABC401 | F - Add One Edge 3",
+        "url": "https://atcoder.jp/contests/abc401/tasks/abc401_f",
+        "tags": [
+            "ABC",
+            "F"
+        ],
+        "contest": 401,
+        "difficulty": 1666
+    },
+    {
+        "name": "ABC401 | G - Push Simultaneously",
+        "url": "https://atcoder.jp/contests/abc401/tasks/abc401_g",
+        "tags": [
+            "ABC",
+            "G"
+        ],
+        "contest": 401,
+        "difficulty": 2022
+    },
+    {
+        "name": "ABC402 | A - CBC",
+        "url": "https://atcoder.jp/contests/abc402/tasks/abc402_a",
+        "tags": [
+            "ABC",
+            "A"
+        ],
+        "contest": 402,
+        "difficulty": 0
+    },
+    {
+        "name": "ABC402 | B - Restaurant Queue",
+        "url": "https://atcoder.jp/contests/abc402/tasks/abc402_b",
+        "tags": [
+            "ABC",
+            "B"
+        ],
+        "contest": 402,
+        "difficulty": 0
+    },
+    {
+        "name": "ABC402 | C - Dislike Foods",
+        "url": "https://atcoder.jp/contests/abc402/tasks/abc402_c",
+        "tags": [
+            "ABC",
+            "C"
+        ],
+        "contest": 402,
+        "difficulty": 331
+    },
+    {
+        "name": "ABC402 | D - Line Crossing",
+        "url": "https://atcoder.jp/contests/abc402/tasks/abc402_d",
+        "tags": [
+            "ABC",
+            "D"
+        ],
+        "contest": 402,
+        "difficulty": 827
+    },
+    {
+        "name": "ABC402 | E - Payment Required",
+        "url": "https://atcoder.jp/contests/abc402/tasks/abc402_e",
+        "tags": [
+            "ABC",
+            "E"
+        ],
+        "contest": 402,
+        "difficulty": 1409
+    },
+    {
+        "name": "ABC402 | F - Path to Integer",
+        "url": "https://atcoder.jp/contests/abc402/tasks/abc402_f",
+        "tags": [
+            "ABC",
+            "F"
+        ],
+        "contest": 402,
+        "difficulty": 1645
+    },
+    {
+        "name": "ABC402 | G - Sum of Prod of Mod of Linear",
+        "url": "https://atcoder.jp/contests/abc402/tasks/abc402_g",
+        "tags": [
+            "ABC",
+            "G"
+        ],
+        "contest": 402,
+        "difficulty": 3381
+    },
+    {
+        "name": "ABC403 | A - Odd Position Sum",
+        "url": "https://atcoder.jp/contests/abc403/tasks/abc403_a",
+        "tags": [
+            "ABC",
+            "A"
+        ],
+        "contest": 403,
+        "difficulty": 0
+    },
+    {
+        "name": "ABC403 | B - Four Hidden",
+        "url": "https://atcoder.jp/contests/abc403/tasks/abc403_b",
+        "tags": [
+            "ABC",
+            "B"
+        ],
+        "contest": 403,
+        "difficulty": 0
+    },
+    {
+        "name": "ABC403 | C - 403 Forbidden",
+        "url": "https://atcoder.jp/contests/abc403/tasks/abc403_c",
+        "tags": [
+            "ABC",
+            "C"
+        ],
+        "contest": 403,
+        "difficulty": 138
+    },
+    {
+        "name": "ABC403 | D - Forbidden Difference",
+        "url": "https://atcoder.jp/contests/abc403/tasks/abc403_d",
+        "tags": [
+            "ABC",
+            "D"
+        ],
+        "contest": 403,
+        "difficulty": 1052
+    },
+    {
+        "name": "ABC403 | E - Forbidden Prefix",
+        "url": "https://atcoder.jp/contests/abc403/tasks/abc403_e",
+        "tags": [
+            "ABC",
+            "E"
+        ],
+        "contest": 403,
+        "difficulty": 1447
+    },
+    {
+        "name": "ABC403 | F - Shortest One Formula",
+        "url": "https://atcoder.jp/contests/abc403/tasks/abc403_f",
+        "tags": [
+            "ABC",
+            "F"
+        ],
+        "contest": 403,
+        "difficulty": 1733
+    },
+    {
+        "name": "ABC403 | G - Odd Position Sum Query",
+        "url": "https://atcoder.jp/contests/abc403/tasks/abc403_g",
+        "tags": [
+            "ABC",
+            "G"
+        ],
+        "contest": 403,
+        "difficulty": 2028
+    },
+    {
+        "name": "ABC404 | A - Not Found",
+        "url": "https://atcoder.jp/contests/abc404/tasks/abc404_a",
+        "tags": [
+            "ABC",
+            "A"
+        ],
+        "contest": 404,
+        "difficulty": 0
+    },
+    {
+        "name": "ABC404 | B - Grid Rotation",
+        "url": "https://atcoder.jp/contests/abc404/tasks/abc404_b",
+        "tags": [
+            "ABC",
+            "B"
+        ],
+        "contest": 404,
+        "difficulty": 83
+    },
+    {
+        "name": "ABC404 | C - Cycle Graph?",
+        "url": "https://atcoder.jp/contests/abc404/tasks/abc404_c",
+        "tags": [
+            "ABC",
+            "C"
+        ],
+        "contest": 404,
+        "difficulty": 370
+    },
+    {
+        "name": "ABC404 | D - Goin' to the Zoo",
+        "url": "https://atcoder.jp/contests/abc404/tasks/abc404_d",
+        "tags": [
+            "ABC",
+            "D"
+        ],
+        "contest": 404,
+        "difficulty": 803
+    },
+    {
+        "name": "ABC404 | E - Bowls and Beans",
+        "url": "https://atcoder.jp/contests/abc404/tasks/abc404_e",
+        "tags": [
+            "ABC",
+            "E"
+        ],
+        "contest": 404,
+        "difficulty": 1286
+    },
+    {
+        "name": "ABC404 | F - Lost and Pound",
+        "url": "https://atcoder.jp/contests/abc404/tasks/abc404_f",
+        "tags": [
+            "ABC",
+            "F"
+        ],
+        "contest": 404,
+        "difficulty": 2162
+    },
+    {
+        "name": "ABC404 | G - Specified Range Sums",
+        "url": "https://atcoder.jp/contests/abc404/tasks/abc404_g",
+        "tags": [
+            "ABC",
+            "G"
+        ],
+        "contest": 404,
+        "difficulty": 1894
+    },
+    {
+        "name": "ABC405 | A - Is it rated?",
+        "url": "https://atcoder.jp/contests/abc405/tasks/abc405_a",
+        "tags": [
+            "ABC",
+            "A"
+        ],
+        "contest": 405,
+        "difficulty": 0
+    },
+    {
+        "name": "ABC405 | B - Not All",
+        "url": "https://atcoder.jp/contests/abc405/tasks/abc405_b",
+        "tags": [
+            "ABC",
+            "B"
+        ],
+        "contest": 405,
+        "difficulty": 0
+    },
+    {
+        "name": "ABC405 | C - Sum of Product",
+        "url": "https://atcoder.jp/contests/abc405/tasks/abc405_c",
+        "tags": [
+            "ABC",
+            "C"
+        ],
+        "contest": 405,
+        "difficulty": 0
+    },
+    {
+        "name": "ABC405 | D - Escape Route",
+        "url": "https://atcoder.jp/contests/abc405/tasks/abc405_d",
+        "tags": [
+            "ABC",
+            "D"
+        ],
+        "contest": 405,
+        "difficulty": 471
+    },
+    {
+        "name": "ABC405 | E - Fruit Lineup",
+        "url": "https://atcoder.jp/contests/abc405/tasks/abc405_e",
+        "tags": [
+            "ABC",
+            "E"
+        ],
+        "contest": 405,
+        "difficulty": 1259
+    },
+    {
+        "name": "ABC405 | F - Chord Crossing",
+        "url": "https://atcoder.jp/contests/abc405/tasks/abc405_f",
+        "tags": [
+            "ABC",
+            "F"
+        ],
+        "contest": 405,
+        "difficulty": 1588
+    },
+    {
+        "name": "ABC405 | G - Range Shuffle Query",
+        "url": "https://atcoder.jp/contests/abc405/tasks/abc405_g",
+        "tags": [
+            "ABC",
+            "G"
+        ],
+        "contest": 405,
+        "difficulty": 2354
+    },
+    {
+        "name": "ABC406 | A - Not Acceptable",
+        "url": "https://atcoder.jp/contests/abc406/tasks/abc406_a",
+        "tags": [
+            "ABC",
+            "A"
+        ],
+        "contest": 406,
+        "difficulty": 0
+    },
+    {
+        "name": "ABC406 | B - Product Calculator",
+        "url": "https://atcoder.jp/contests/abc406/tasks/abc406_b",
+        "tags": [
+            "ABC",
+            "B"
+        ],
+        "contest": 406,
+        "difficulty": 75
+    },
+    {
+        "name": "ABC406 | C - ~",
+        "url": "https://atcoder.jp/contests/abc406/tasks/abc406_c",
+        "tags": [
+            "ABC",
+            "C"
+        ],
+        "contest": 406,
+        "difficulty": 862
+    },
+    {
+        "name": "ABC406 | D - Garbage Removal",
+        "url": "https://atcoder.jp/contests/abc406/tasks/abc406_d",
+        "tags": [
+            "ABC",
+            "D"
+        ],
+        "contest": 406,
+        "difficulty": 694
+    },
+    {
+        "name": "ABC406 | E - Popcount Sum 3",
+        "url": "https://atcoder.jp/contests/abc406/tasks/abc406_e",
+        "tags": [
+            "ABC",
+            "E"
+        ],
+        "contest": 406,
+        "difficulty": 1365
+    },
+    {
+        "name": "ABC406 | F - Compare Tree Weights",
+        "url": "https://atcoder.jp/contests/abc406/tasks/abc406_f",
+        "tags": [
+            "ABC",
+            "F"
+        ],
+        "contest": 406,
+        "difficulty": 1470
+    },
+    {
+        "name": "ABC406 | G - Travelling Salesman Problem",
+        "url": "https://atcoder.jp/contests/abc406/tasks/abc406_g",
+        "tags": [
+            "ABC",
+            "G"
+        ],
+        "contest": 406,
+        "difficulty": 3197
+    },
+    {
+        "name": "ABC407 | A - Approximation",
+        "url": "https://atcoder.jp/contests/abc407/tasks/abc407_a",
+        "tags": [
+            "ABC",
+            "A"
+        ],
+        "contest": 407,
+        "difficulty": 0
+    },
+    {
+        "name": "ABC407 | B - P(X or Y)",
+        "url": "https://atcoder.jp/contests/abc407/tasks/abc407_b",
+        "tags": [
+            "ABC",
+            "B"
+        ],
+        "contest": 407,
+        "difficulty": 0
+    },
+    {
+        "name": "ABC407 | C - Security 2",
+        "url": "https://atcoder.jp/contests/abc407/tasks/abc407_c",
+        "tags": [
+            "ABC",
+            "C"
+        ],
+        "contest": 407,
+        "difficulty": 278
+    },
+    {
+        "name": "ABC407 | D - Domino Covering XOR",
+        "url": "https://atcoder.jp/contests/abc407/tasks/abc407_d",
+        "tags": [
+            "ABC",
+            "D"
+        ],
+        "contest": 407,
+        "difficulty": 930
+    },
+    {
+        "name": "ABC407 | E - Most Valuable Parentheses",
+        "url": "https://atcoder.jp/contests/abc407/tasks/abc407_e",
+        "tags": [
+            "ABC",
+            "E"
+        ],
+        "contest": 407,
+        "difficulty": 1531
+    },
+    {
+        "name": "ABC407 | F - Sums of Sliding Window Maximum",
+        "url": "https://atcoder.jp/contests/abc407/tasks/abc407_f",
+        "tags": [
+            "ABC",
+            "F"
+        ],
+        "contest": 407,
+        "difficulty": 1740
+    },
+    {
+        "name": "ABC407 | G - Domino Covering SUM",
+        "url": "https://atcoder.jp/contests/abc407/tasks/abc407_g",
+        "tags": [
+            "ABC",
+            "G"
+        ],
+        "contest": 407,
+        "difficulty": 2190
+    },
+    {
+        "name": "ABC408 | A - Timeout",
+        "url": "https://atcoder.jp/contests/abc408/tasks/abc408_a",
+        "tags": [
+            "ABC",
+            "A"
+        ],
+        "contest": 408,
+        "difficulty": 0
+    },
+    {
+        "name": "ABC408 | B - Compression",
+        "url": "https://atcoder.jp/contests/abc408/tasks/abc408_b",
+        "tags": [
+            "ABC",
+            "B"
+        ],
+        "contest": 408,
+        "difficulty": 0
+    },
+    {
+        "name": "ABC408 | C - Not All Covered",
+        "url": "https://atcoder.jp/contests/abc408/tasks/abc408_c",
+        "tags": [
+            "ABC",
+            "C"
+        ],
+        "contest": 408,
+        "difficulty": 166
+    },
+    {
+        "name": "ABC408 | D - Flip to Gather",
+        "url": "https://atcoder.jp/contests/abc408/tasks/abc408_d",
+        "tags": [
+            "ABC",
+            "D"
+        ],
+        "contest": 408,
+        "difficulty": 950
+    },
+    {
+        "name": "ABC408 | E - Minimum OR Path",
+        "url": "https://atcoder.jp/contests/abc408/tasks/abc408_e",
+        "tags": [
+            "ABC",
+            "E"
+        ],
+        "contest": 408,
+        "difficulty": 1222
+    },
+    {
+        "name": "ABC408 | F - Athletic",
+        "url": "https://atcoder.jp/contests/abc408/tasks/abc408_f",
+        "tags": [
+            "ABC",
+            "F"
+        ],
+        "contest": 408,
+        "difficulty": 1472
+    },
+    {
+        "name": "ABC408 | G - A/B < p/q < C/D",
+        "url": "https://atcoder.jp/contests/abc408/tasks/abc408_g",
+        "tags": [
+            "ABC",
+            "G"
+        ],
+        "contest": 408,
+        "difficulty": 2167
+    },
+    {
+        "name": "ABC409 | A - Conflict",
+        "url": "https://atcoder.jp/contests/abc409/tasks/abc409_a",
+        "tags": [
+            "ABC",
+            "A"
+        ],
+        "contest": 409,
+        "difficulty": 0
+    },
+    {
+        "name": "ABC409 | B - Citation",
+        "url": "https://atcoder.jp/contests/abc409/tasks/abc409_b",
+        "tags": [
+            "ABC",
+            "B"
+        ],
+        "contest": 409,
+        "difficulty": 0
+    },
+    {
+        "name": "ABC409 | C - Equilateral Triangle",
+        "url": "https://atcoder.jp/contests/abc409/tasks/abc409_c",
+        "tags": [
+            "ABC",
+            "C"
+        ],
+        "contest": 409,
+        "difficulty": 421
+    },
+    {
+        "name": "ABC409 | D - String Rotation",
+        "url": "https://atcoder.jp/contests/abc409/tasks/abc409_d",
+        "tags": [
+            "ABC",
+            "D"
+        ],
+        "contest": 409,
+        "difficulty": 772
+    },
+    {
+        "name": "ABC409 | E - Pair Annihilation",
+        "url": "https://atcoder.jp/contests/abc409/tasks/abc409_e",
+        "tags": [
+            "ABC",
+            "E"
+        ],
+        "contest": 409,
+        "difficulty": 973
+    },
+    {
+        "name": "ABC409 | F - Connecting Points",
+        "url": "https://atcoder.jp/contests/abc409/tasks/abc409_f",
+        "tags": [
+            "ABC",
+            "F"
+        ],
+        "contest": 409,
+        "difficulty": 1580
+    },
+    {
+        "name": "ABC409 | G - Accumulation of Wealth",
+        "url": "https://atcoder.jp/contests/abc409/tasks/abc409_g",
+        "tags": [
+            "ABC",
+            "G"
+        ],
+        "contest": 409,
+        "difficulty": 2616
+    },
+    {
+        "name": "ABC410 | A - G1",
+        "url": "https://atcoder.jp/contests/abc410/tasks/abc410_a",
+        "tags": [
+            "ABC",
+            "A"
+        ],
+        "contest": 410,
+        "difficulty": 0
+    },
+    {
+        "name": "ABC410 | B - Reverse Proxy",
+        "url": "https://atcoder.jp/contests/abc410/tasks/abc410_b",
+        "tags": [
+            "ABC",
+            "B"
+        ],
+        "contest": 410,
+        "difficulty": 0
+    },
+    {
+        "name": "ABC410 | C - Rotatable Array",
+        "url": "https://atcoder.jp/contests/abc410/tasks/abc410_c",
+        "tags": [
+            "ABC",
+            "C"
+        ],
+        "contest": 410,
+        "difficulty": 178
+    },
+    {
+        "name": "ABC410 | D - XOR Shortest Walk",
+        "url": "https://atcoder.jp/contests/abc410/tasks/abc410_d",
+        "tags": [
+            "ABC",
+            "D"
+        ],
+        "contest": 410,
+        "difficulty": 1048
+    },
+    {
+        "name": "ABC410 | E - Battles in a Row",
+        "url": "https://atcoder.jp/contests/abc410/tasks/abc410_e",
+        "tags": [
+            "ABC",
+            "E"
+        ],
+        "contest": 410,
+        "difficulty": 1077
+    },
+    {
+        "name": "ABC410 | F - Balanced Rectangles",
+        "url": "https://atcoder.jp/contests/abc410/tasks/abc410_f",
+        "tags": [
+            "ABC",
+            "F"
+        ],
+        "contest": 410,
+        "difficulty": 1732
+    },
+    {
+        "name": "ABC410 | G - Longest Chord Chain",
+        "url": "https://atcoder.jp/contests/abc410/tasks/abc410_g",
+        "tags": [
+            "ABC",
+            "G"
+        ],
+        "contest": 410,
+        "difficulty": 2242
+    },
+    {
+        "name": "ABC411 | A - Required Length",
+        "url": "https://atcoder.jp/contests/abc411/tasks/abc411_a",
+        "tags": [
+            "ABC",
+            "A"
+        ],
+        "contest": 411,
+        "difficulty": 0
+    },
+    {
+        "name": "ABC411 | B - Distance Table",
+        "url": "https://atcoder.jp/contests/abc411/tasks/abc411_b",
+        "tags": [
+            "ABC",
+            "B"
+        ],
+        "contest": 411,
+        "difficulty": 0
+    },
+    {
+        "name": "ABC411 | C - Black Intervals",
+        "url": "https://atcoder.jp/contests/abc411/tasks/abc411_c",
+        "tags": [
+            "ABC",
+            "C"
+        ],
+        "contest": 411,
+        "difficulty": 185
+    },
+    {
+        "name": "ABC411 | D - Conflict 2",
+        "url": "https://atcoder.jp/contests/abc411/tasks/abc411_d",
+        "tags": [
+            "ABC",
+            "D"
+        ],
+        "contest": 411,
+        "difficulty": 1018
+    },
+    {
+        "name": "ABC411 | E - E [max]",
+        "url": "https://atcoder.jp/contests/abc411/tasks/abc411_e",
+        "tags": [
+            "ABC",
+            "E"
+        ],
+        "contest": 411,
+        "difficulty": 1400
+    },
+    {
+        "name": "ABC411 | F - Contraction",
+        "url": "https://atcoder.jp/contests/abc411/tasks/abc411_f",
+        "tags": [
+            "ABC",
+            "F"
+        ],
+        "contest": 411,
+        "difficulty": 1898
+    },
+    {
+        "name": "ABC411 | G - Count Cycles",
+        "url": "https://atcoder.jp/contests/abc411/tasks/abc411_g",
+        "tags": [
+            "ABC",
+            "G"
+        ],
+        "contest": 411,
+        "difficulty": 2093
+    },
+    {
+        "name": "ABC412 | A - Task Failed Successfully",
+        "url": "https://atcoder.jp/contests/abc412/tasks/abc412_a",
+        "tags": [
+            "ABC",
+            "A"
+        ],
+        "contest": 412,
+        "difficulty": 0
+    },
+    {
+        "name": "ABC412 | B - Precondition",
+        "url": "https://atcoder.jp/contests/abc412/tasks/abc412_b",
+        "tags": [
+            "ABC",
+            "B"
+        ],
+        "contest": 412,
+        "difficulty": 0
+    },
+    {
+        "name": "ABC412 | C - Giant Domino",
+        "url": "https://atcoder.jp/contests/abc412/tasks/abc412_c",
+        "tags": [
+            "ABC",
+            "C"
+        ],
+        "contest": 412,
+        "difficulty": 607
+    },
+    {
+        "name": "ABC412 | D - Make 2-Regular Graph",
+        "url": "https://atcoder.jp/contests/abc412/tasks/abc412_d",
+        "tags": [
+            "ABC",
+            "D"
+        ],
+        "contest": 412,
+        "difficulty": 1186
+    },
+    {
+        "name": "ABC412 | E - LCM Sequence",
+        "url": "https://atcoder.jp/contests/abc412/tasks/abc412_e",
+        "tags": [
+            "ABC",
+            "E"
+        ],
+        "contest": 412,
+        "difficulty": 1496
+    },
+    {
+        "name": "ABC412 | F - Socks 4",
+        "url": "https://atcoder.jp/contests/abc412/tasks/abc412_f",
+        "tags": [
+            "ABC",
+            "F"
+        ],
+        "contest": 412,
+        "difficulty": 2038
+    },
+    {
+        "name": "ABC412 | G - Degree Harmony",
+        "url": "https://atcoder.jp/contests/abc412/tasks/abc412_g",
+        "tags": [
+            "ABC",
+            "G"
+        ],
+        "contest": 412,
+        "difficulty": 3402
+    },
+    {
+        "name": "ABC413 | A - Content Too Large",
+        "url": "https://atcoder.jp/contests/abc413/tasks/abc413_a",
+        "tags": [
+            "ABC",
+            "A"
+        ],
+        "contest": 413,
+        "difficulty": 0
+    },
+    {
+        "name": "ABC413 | B - cat 2",
+        "url": "https://atcoder.jp/contests/abc413/tasks/abc413_b",
+        "tags": [
+            "ABC",
+            "B"
+        ],
+        "contest": 413,
+        "difficulty": 0
+    },
+    {
+        "name": "ABC413 | C - Large Queue",
+        "url": "https://atcoder.jp/contests/abc413/tasks/abc413_c",
+        "tags": [
+            "ABC",
+            "C"
+        ],
+        "contest": 413,
+        "difficulty": 177
+    },
+    {
+        "name": "ABC413 | D - Make Geometric Sequence",
+        "url": "https://atcoder.jp/contests/abc413/tasks/abc413_d",
+        "tags": [
+            "ABC",
+            "D"
+        ],
+        "contest": 413,
+        "difficulty": 943
+    },
+    {
+        "name": "ABC413 | E - Reverse 2^i",
+        "url": "https://atcoder.jp/contests/abc413/tasks/abc413_e",
+        "tags": [
+            "ABC",
+            "E"
+        ],
+        "contest": 413,
+        "difficulty": 1241
+    },
+    {
+        "name": "ABC413 | F - No Passage",
+        "url": "https://atcoder.jp/contests/abc413/tasks/abc413_f",
+        "tags": [
+            "ABC",
+            "F"
+        ],
+        "contest": 413,
+        "difficulty": 1635
+    },
+    {
+        "name": "ABC413 | G - Big Banned Grid",
+        "url": "https://atcoder.jp/contests/abc413/tasks/abc413_g",
+        "tags": [
+            "ABC",
+            "G"
+        ],
+        "contest": 413,
+        "difficulty": 1723
+    },
+    {
+        "name": "ABC414 | A - Streamer Takahashi",
+        "url": "https://atcoder.jp/contests/abc414/tasks/abc414_a",
+        "tags": [
+            "ABC",
+            "A"
+        ],
+        "contest": 414,
+        "difficulty": 0
+    },
+    {
+        "name": "ABC414 | B - String Too Long ",
+        "url": "https://atcoder.jp/contests/abc414/tasks/abc414_b",
+        "tags": [
+            "ABC",
+            "B"
+        ],
+        "contest": 414,
+        "difficulty": 0
+    },
+    {
+        "name": "ABC414 | C - Palindromic in Both Bases",
+        "url": "https://atcoder.jp/contests/abc414/tasks/abc414_c",
+        "tags": [
+            "ABC",
+            "C"
+        ],
+        "contest": 414,
+        "difficulty": 709
+    },
+    {
+        "name": "ABC414 | D - Transmission Mission",
+        "url": "https://atcoder.jp/contests/abc414/tasks/abc414_d",
+        "tags": [
+            "ABC",
+            "D"
+        ],
+        "contest": 414,
+        "difficulty": 841
+    },
+    {
+        "name": "ABC414 | E - Count A%B=C",
+        "url": "https://atcoder.jp/contests/abc414/tasks/abc414_e",
+        "tags": [
+            "ABC",
+            "E"
+        ],
+        "contest": 414,
+        "difficulty": 1296
+    },
+    {
+        "name": "ABC414 | F - Jump Traveling",
+        "url": "https://atcoder.jp/contests/abc414/tasks/abc414_f",
+        "tags": [
+            "ABC",
+            "F"
+        ],
+        "contest": 414,
+        "difficulty": 2357
+    },
+    {
+        "name": "ABC414 | G - AtCoder Express 4",
+        "url": "https://atcoder.jp/contests/abc414/tasks/abc414_g",
+        "tags": [
+            "ABC",
+            "G"
+        ],
+        "contest": 414,
+        "difficulty": 3020
+    },
+    {
+        "name": "ABC415 | A - Unsupported Type",
+        "url": "https://atcoder.jp/contests/abc415/tasks/abc415_a",
+        "tags": [
+            "ABC",
+            "A"
+        ],
+        "contest": 415,
+        "difficulty": 0
+    },
+    {
+        "name": "ABC415 | B - Pick Two",
+        "url": "https://atcoder.jp/contests/abc415/tasks/abc415_b",
+        "tags": [
+            "ABC",
+            "B"
+        ],
+        "contest": 415,
+        "difficulty": 0
+    },
+    {
+        "name": "ABC415 | C - Mixture",
+        "url": "https://atcoder.jp/contests/abc415/tasks/abc415_c",
+        "tags": [
+            "ABC",
+            "C"
+        ],
+        "contest": 415,
+        "difficulty": 657
+    },
+    {
+        "name": "ABC415 | D - Get Many Stickers",
+        "url": "https://atcoder.jp/contests/abc415/tasks/abc415_d",
+        "tags": [
+            "ABC",
+            "D"
+        ],
+        "contest": 415,
+        "difficulty": 846
+    },
+    {
+        "name": "ABC415 | E - Hungry Takahashi",
+        "url": "https://atcoder.jp/contests/abc415/tasks/abc415_e",
+        "tags": [
+            "ABC",
+            "E"
+        ],
+        "contest": 415,
+        "difficulty": 1212
+    },
+    {
+        "name": "ABC415 | F - Max Combo",
+        "url": "https://atcoder.jp/contests/abc415/tasks/abc415_f",
+        "tags": [
+            "ABC",
+            "F"
+        ],
+        "contest": 415,
+        "difficulty": 1552
+    },
+    {
+        "name": "ABC415 | G - Get Many Cola",
+        "url": "https://atcoder.jp/contests/abc415/tasks/abc415_g",
+        "tags": [
+            "ABC",
+            "G"
+        ],
+        "contest": 415,
+        "difficulty": 2180
     }
 ]
