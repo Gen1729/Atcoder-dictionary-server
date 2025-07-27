@@ -6,9 +6,6 @@ import (
 	"os"
 	"strconv"
 	"strings"
-
-	"github.com/labstack/echo/v4"
-	"github.com/labstack/echo/v4/middleware"
 )
 
 type Link struct {
@@ -19,10 +16,21 @@ type Link struct {
 	Difficulty int      `json:"difficulty"`
 }
 
-func getProblems(c echo.Context) error {
-	words := c.QueryParam("words")
-	var contest string = c.QueryParam("contest")
-	var difficulty string = c.QueryParam("difficulty")
+func Handler(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/json")
+	w.Header().Set("Access-Control-Allow-Origin", "*") // 開発段階として'*'、本番は特定URLに変更推奨
+	w.Header().Set("Access-Control-Allow-Methods", "GET, OPTIONS")
+	w.Header().Set("Access-Control-Allow-Headers", "Content-Type")
+
+	if r.Method == http.MethodOptions {
+		w.WriteHeader(http.StatusOK)
+		return
+	}
+
+	words := r.URL.Query().Get("words")
+	var contest string = r.URL.Query().Get("contest")
+	var difficulty string = r.URL.Query().Get("difficulty")
+
 	wordsArr := []string{}
 	if words != "" {
 		wordsArr = append(wordsArr, strings.Split(words, ",")...)
@@ -56,21 +64,32 @@ func getProblems(c echo.Context) error {
 		difficultyArr = append(difficultyArr, num)
 	}
 
+	minDifficulty := 0
+	maxDifficulty := 3600
+	if len(difficultyArr) >= 2 {
+		minDifficulty = difficultyArr[0]
+		maxDifficulty = difficultyArr[1]
+	}
+
 	file, err := os.Open("data.json")
 	if err != nil {
-		return c.JSON(http.StatusInternalServerError, map[string]string{"error": "failed to open data.json: " + err.Error()})
+		w.WriteHeader(http.StatusInternalServerError)
+		json.NewEncoder(w).Encode(map[string]string{"error": "failed to open data.json: " + err.Error()})
+		return
 	}
 	defer file.Close()
 
 	decoder := json.NewDecoder(file)
 	var data []Link
 	if err := decoder.Decode(&data); err != nil {
-		return c.JSON(http.StatusInternalServerError, map[string]string{"error": "failed to decode JSON: " + err.Error()})
+		w.WriteHeader(http.StatusInternalServerError)
+		json.NewEncoder(w).Encode(map[string]string{"error": "failed to decode JSON: " + err.Error()})
+		return
 	}
 
 	var filteredByDifficultyContest []Link
 	for _, link := range data {
-		if !(difficultyArr[0] <= link.Difficulty && link.Difficulty <= difficultyArr[1]) {
+		if !(minDifficulty <= link.Difficulty && link.Difficulty <= maxDifficulty) {
 			continue
 		}
 		if contest == "" {
@@ -80,49 +99,32 @@ func getProblems(c echo.Context) error {
 		for _, num := range contestArr {
 			if link.Contest == num {
 				filteredByDifficultyContest = append(filteredByDifficultyContest, link)
+				break
 			}
 		}
 	}
 
 	var filtered []Link
 	for _, link := range filteredByDifficultyContest {
-		D := false
+		matched := false
 		for _, tag := range link.Tags {
 			for _, word := range wordsArr {
 				if tag == word {
 					filtered = append(filtered, link)
-					D = true
+					matched = true
 					break
 				}
 			}
-			if D {
+			if matched {
 				break
 			}
 		}
 	}
 
+	w.WriteHeader(http.StatusOK)
 	if words == "" {
-		u := &filteredByDifficultyContest
-		return c.JSON(http.StatusCreated, u)
+		json.NewEncoder(w).Encode(filteredByDifficultyContest)
+		return
 	}
-	u := &filtered
-	return c.JSON(http.StatusCreated, u)
-}
-
-func main() {
-	e := echo.New()
-
-	// CORSミドルウェアを使う（許可するオリジンを指定）
-	e.Use(middleware.CORSWithConfig(middleware.CORSConfig{
-		AllowOrigins: []string{
-			"https://atcoder-dictionary.vercel.app", // フロントエンドのURLを指定
-			"http://localhost:5173",                 // 開発用にlocalhostも許可（任意）
-		},
-		AllowMethods: []string{http.MethodGet, http.MethodPost, http.MethodOptions},
-		AllowHeaders: []string{echo.HeaderOrigin, echo.HeaderContentType, echo.HeaderAccept, echo.HeaderAuthorization},
-	}))
-
-	e.GET("/dict", getProblems)
-
-	e.Logger.Fatal(e.Start(":1323"))
+	json.NewEncoder(w).Encode(filtered)
 }
