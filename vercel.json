@@ -1,11 +1,6 @@
 {
-    "routes": [
-        {
-            "src": "/",
-            "dest": "/api",
-            "methods": [
-                "GET"
-            ]
-        }
-    ]
+  "version": 2,
+  "builds": [
+    { "src": "api/dict.go", "use": "@vercel/go" }
+  ]
 }
