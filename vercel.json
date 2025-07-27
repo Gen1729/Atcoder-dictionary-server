@@ -2,5 +2,8 @@
   "version": 2,
   "builds": [
     { "src": "api/dict.go", "use": "@vercel/go" }
+  ],
+  "routes": [
+    { "src": "/api/dict", "dest": "/api/dict.go" }
   ]
 }
