@@ -8,6 +8,7 @@ import (
 	"strings"
 
 	"github.com/labstack/echo/v4"
+	"github.com/labstack/echo/v4/middleware"
 )
 
 type Link struct {
@@ -110,6 +111,17 @@ func getProblems(c echo.Context) error {
 
 func main() {
 	e := echo.New()
+
+	// CORSミドルウェアを使う（許可するオリジンを指定）
+	e.Use(middleware.CORSWithConfig(middleware.CORSConfig{
+		AllowOrigins: []string{
+			"https://atcoder-dictionary.vercel.app", // フロントエンドのURLを指定
+			"http://localhost:5173",                 // 開発用にlocalhostも許可（任意）
+		},
+		AllowMethods: []string{http.MethodGet, http.MethodPost, http.MethodOptions},
+		AllowHeaders: []string{echo.HeaderOrigin, echo.HeaderContentType, echo.HeaderAccept, echo.HeaderAuthorization},
+	}))
+
 	e.GET("/dict", getProblems)
 
 	e.Logger.Fatal(e.Start(":1323"))
