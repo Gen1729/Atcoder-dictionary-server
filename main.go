@@ -58,14 +58,14 @@ func getProblems(c echo.Context) error {
 
 	file, err := os.Open("data.json")
 	if err != nil {
-		return err
+		return c.JSON(http.StatusInternalServerError, map[string]string{"error": "failed to open data.json: " + err.Error()})
 	}
 	defer file.Close()
 
 	decoder := json.NewDecoder(file)
 	var data []Link
 	if err := decoder.Decode(&data); err != nil {
-		return err
+		return c.JSON(http.StatusInternalServerError, map[string]string{"error": "failed to decode JSON: " + err.Error()})
 	}
 
 	var filteredByDifficultyContest []Link
